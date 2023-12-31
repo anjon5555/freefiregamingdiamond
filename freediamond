@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Diamonds</title>
+    <style>
+        /* Add some basic styling for the button */
+        .diamond-button {
+            display: inline-block;
+            padding: 30px 40px;
+            font-size: 27px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid #3498db;
+            color: #3498db;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+
+        /* Add a hover effect */
+        .diamond-button:hover {
+            background-color:#2ecc71;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    function createDiamondButton(text, link) {
+        const container = document.body;
+        const button = document.createElement('a');
+        button.href = link;
+        button.className = 'diamond-button';
+        button.target = '_blank';
+        button.textContent = text;
+        container.appendChild(button);
+    }
+
+    // Replace "https://your-diamond-link.com" with your actual link
+    createDiamondButton('Get 1000 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+    createDiamondButton('Get 1500 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+    createDiamondButton('Get 2000 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+    createDiamondButton('Get 2500 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+    createDiamondButton('Get 3000 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+    createDiamondButton('Get 3500 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+    createDiamondButton('Get 4000 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+createDiamondButton('Get 4500 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+createDiamondButton('Get 5000 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+createDiamondButton('Get 5500 Free Diamonds', 'https://www.toprevenuegate.com/eeenswrj77?key=3be89ccb8d8fda7913b5a1cafc06a4dc');
+
+</script>
+
+</body>
+</html>
